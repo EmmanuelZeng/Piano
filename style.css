@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+}
+hgroup{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    width: 60%;
+    height: calc(100vh - 40%);
+    margin: 80px auto;
+    background: black;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+ul li{
+    background-color: white;
+    height: inherit;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.scale{
+    transition: 2s ease-in-out;
+    transform: scale(10px);
+}
